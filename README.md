@@ -2,6 +2,19 @@
 
 ## to run code
 1. make & activate environment
+
+```bash
+Windows:
+Install virtualenv: pip install virtualenv
+Buat environment: python -m venv env_name
+Aktifkan environment: env_name\Scripts\activate
+
+Linux/Mac:
+Install virtualenv: pip3 install virtualenv
+Buat environment: python3 -m venv env_name
+Aktifkan environment: source env_name/bin/activate
+```
+   
 2. install library
 ```bash
 pip install -r requirements.txt
